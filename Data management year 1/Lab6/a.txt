@@ -1,0 +1,3 @@
+L;student-mat.csv;School;GP
+S;Age;D;N
+H;StudyTime
