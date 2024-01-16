@@ -1,0 +1,89 @@
+ECOR 1041 Lab 3 Solutions
+
+Using a text editor, type your solutions to the exercises in the lab
+instructions (file ECOR1041_Lab3.pdf) in the indicated areas.
+
+===========
+Exercise 1:
+
+(a) Write the Python statement that caused the variable degrees_f to
+appear in the memory model
+
+==> degrees_F=70
+
+(b) What is the name of the frame containing degrees_f?
+
+==> Global Frame
+
+(c) What does the arrow that points from degrees_f to 70 represent?
+
+==> The value that the object is bound to
+
+(d) Write the Python statement that caused the variable degrees_k to
+appear in the memory model.
+
+==> degrees_K = ((degrees_F-32) * (5/9))+273.15
+
+(e) The arrow in degrees_k points to an object. What is the type and
+value of this object?
+
+==> The type is a float and the value is 294.2611
+
+===========
+Exercise 2:
+
+Copy the four assignment statements from Python Tutor and paste them
+between the two dashed lines.
+--------------------------------
+mpg=32
+LITRES_PER_GALLON = 4.54609
+KMS_PER_MILE = 1.60934
+fuel_consumption = ( LITRES_PER_GALLON / (KMS_PER_MILE*mpg) ) * 100
+--------------------------------
+
+(a) What is the name of the first variable that appears in the
+memory model? What is the type and value of the object that it refers to?
+
+==> mpg. It is an int with a value of 32
+
+(b) What is the name of the second variable that appears in the
+memory model? What is the type and value of the object that it refers to?
+
+==> LITERS_PER_GALLON. It is a float with a value of 4.5461
+
+(c) What is the name of the third variable that appears in the
+memory model? What is the type and value of the object that it refers to?
+
+==> KMS_PER_MILE. It is a float with a value of 1.6093
+
+(d) What is the name of the fourth variable that appears in the
+memory model? What is the type and value of the object that it refers to?
+
+==> fuel_consumption. It is a float with a value of 0.0882755
+
+===========
+Exercise 3:
+
+Copy the five assignment statements from Python Tutor and paste them
+between the two dashed lines.
+--------------------------------
+principal = 1500
+rate = 0.043
+n = 4
+time = 6
+amount = principal * (1 + (rate/n)) ** (n*time)
+--------------------------------
+
+===========
+Exercise 4:
+
+Write a short step-by-step explanation of how Python evaluates the
+statement:
+
+x *= x + x
+
+when x is refers to 5.
+
+- Python excecutes the right hand side of the equation first, ie x + x or 5+5 in this case
+- Then python will evaluate the *= statement by multiplying the left side of the equation by the right side, ie x * (x+x) or 5*(5+5)
+- Finally it sets x to the result. x=50
