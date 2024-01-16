@@ -19,9 +19,10 @@ Installation - You will need:
 -Python 
 
 ===================================================
-Video usage link:
-
-
+Unfortunately, this project does not fully function.
+the UI systems in Lab6 are not complete and will have multiple errors.
+Rana and Prasid did not contribute to this readme and it has been fully 
+completed by Ethan Robitaille.
 ===================================================
 Credits for functions produced
 Ethan R.
@@ -41,6 +42,7 @@ Ethan R.
 	Lab6
 	- curve_fit
 	- batch_UI
+	- README
 Rana Taunk
 	Lab3
 	- 
